@@ -1,4 +1,4 @@
-    package problem1;
+    package Lab1.problem1;
 
     public class ArrayDistinctIntSum {
         public static boolean sumFound(int[] arr, int z) {

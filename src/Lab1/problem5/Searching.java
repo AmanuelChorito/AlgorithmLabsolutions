@@ -1,4 +1,4 @@
-package problem5;
+package Lab1.problem5;
 
 public class Searching {
     public static boolean find(int[] arr, int z) {

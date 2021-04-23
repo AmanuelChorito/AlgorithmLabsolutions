@@ -1,4 +1,4 @@
-package problem4;
+package Lab1.problem4;
 
 import java.util.Arrays;
 import java.util.LinkedList;

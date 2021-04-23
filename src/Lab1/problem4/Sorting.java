@@ -1,9 +1,8 @@
-package problem4;
+package Lab1.problem4;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 public class Sorting {
     public static void sort(ArrayList<Integer> list){

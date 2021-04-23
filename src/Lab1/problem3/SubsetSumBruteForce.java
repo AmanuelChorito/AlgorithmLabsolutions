@@ -1,6 +1,10 @@
-package problem3;
-import java.util.*;
+package Lab1.problem3;
 import lab1.powerset.PowerSet;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
 public class SubsetSumBruteForce {
     public static boolean subsetSum(List<Integer> list, Integer z) {
         int checkSumBefore=0;
@@ -12,7 +16,9 @@ public class SubsetSumBruteForce {
        // System.out.println(P);
         for (Set<Integer> k:P){ int sum = 0;
             for (Integer i:k) sum=sum+ i;
-            if (sum == z) return true; }return false;
+            if (sum == z)
+                return true; }
+        return false;
     }
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 3, 9, 4, 8, 5));System.out.println( subsetSum(list,21));

@@ -1,4 +1,4 @@
-    package problem2;
+    package Lab1.problem2;
 
     public class SecondSmallestElement {
 
